@@ -1,6 +1,6 @@
 #  JS exercises for syber4s course.
 Each of the exercises is in a separate file:
-##### 29/8
+## 29/8
 * Write a piece of code that computes the sum of digits of a 3-digit number.
   ##### solution:https://github.com/tsoriLache/JS-Basics-Exercises/blob/main/digit%20sum.js
 * Write a piece of code that finds the solutions for a quadratic equation. 
