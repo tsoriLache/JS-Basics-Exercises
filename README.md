@@ -21,9 +21,13 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________
 ## 31/8
 * Write a functions that plays city trivia:
- ``` function guessCity(capital, coastal, famous, ancient) {
-    // your code goes here
-}```
+
+         ```
+         function guessCity(capital, coastal, famous, ancient) {
+            // your code goes here
+        }
+        ```
+        
 The arguments are all true or false. The return value is the name of the city.
 Jerusalem is ancient, famous and a capital
 Tel Aviv is famous and coastal
@@ -33,5 +37,5 @@ Zikim is coastal
 Musmus is not any of the above
 
 * Formula 1 races are cool! and there have been many champions over the years.
-We want to find out how many times each of them won the races...
-for full description of the exercise go here--> https://github.com/tsoriLache/JS-Basics-Exercises/blob/main/formula%20exercise%20description.md
+  We want to find out how many times each of them won the races...
+  for full description of the exercise go here--> https://github.com/tsoriLache/JS-Basics-Exercises/blob/main/formula%20exercise%20description.md
