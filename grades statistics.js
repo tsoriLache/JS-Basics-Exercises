@@ -1,5 +1,5 @@
 "use strict"
-const grades = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,73, 91, 88, 56, 62, 84, 95, 96, 88, 92,100,120,34,75];
+const grades = [73, 91, 88, 56, 62, 84, 95, 96, 88, 92,100,120,34,75];
 const secondHalfGrades=[...grades.slice(Math.floor(grades.length/2))];
 function rangeOfGrades(grades)
 {
@@ -7,7 +7,8 @@ function rangeOfGrades(grades)
 }
 function medianGrade(grades)
 {
-    grades.sort(function(a, b){return a-b}); //מסדר את הציונים במערך מהקטן לגדול
+    let localGrades=grades.slice().sort(function(a, b){return a-b}); 
     return grades[Math.floor(grades.length/2)]
 }
+
 console.log("Stats:"+"\n\t"+"Range: "+rangeOfGrades(grades)+"\n\t"+"Median: "+medianGrade(grades)+"\n\t"+"Half Range: "+rangeOfGrades(secondHalfGrades));
